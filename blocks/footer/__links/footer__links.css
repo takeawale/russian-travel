@@ -1,0 +1,6 @@
+.footer__links{
+    margin-left: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
