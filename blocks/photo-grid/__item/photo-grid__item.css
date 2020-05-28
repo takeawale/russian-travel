@@ -1,8 +1,7 @@
 .photo-grid__item{
-    width: 284px;
-    height: 213px;
-   
+    width: -webkit-fill-available;
 }
+
 
 @media screen and (max-width: 768px) {
     .photo-grid__item{

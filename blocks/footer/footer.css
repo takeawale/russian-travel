@@ -7,6 +7,11 @@
     align-items: center;
     justify-content: space-between;
     padding: 92px 0 24px;
-    min-width: 1184px;
-
 }
+
+
+@media (max-width: 1280px) {
+    .footer {
+        margin: 0 50px;
+    }
+  }
