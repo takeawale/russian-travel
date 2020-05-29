@@ -4,6 +4,27 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
-  width: 90%;
-  margin: auto;
+  max-width: 984px;
+  max-height: 1005px;
+  margin: 0 auto 0 auto;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    padding: 0 48px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    padding: 0;
+  }
 }

@@ -16,3 +16,21 @@
 .place:first-child {
     padding-top: 0;
 }
+
+  
+  @media screen and (max-width: 1024px) {
+    .place {
+      padding: 0;
+      grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
+      grid-column-gap: 32px;
+      
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .place {
+      grid-template-columns: repeat(2, minmax(288px, auto));
+      grid-auto-rows: minmax(216px, auto);
+    }
+  }
+
