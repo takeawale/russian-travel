@@ -2,38 +2,45 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__links/footer__links.css);
 
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 92px 0 24px;
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 92px 0 24px;
 }
 
-
 @media (max-width: 1280px) {
-    .footer {
-        margin: 0 50px;
-    }
+  .footer {
+    margin: 0 50px;
   }
-
-
-  @media (max-width: 1024px) {
-    .footer {
-        margin: 0 50px;
-    }
+}
+@media (min-width: 1280px) {
+  .footer {
+    margin: 0 50px;
   }
+}
 
-
-  @media (max-width: 320px) {
-    .footer {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: start;
-        -ms-flex-align: start;
-        align-items: flex-start;
-        padding: 64px 16px 24px;
-        height: 313px;
-    }
+@media (max-width: 1024px) {
+  .footer {
+    margin: 0 50px;
   }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    margin: 0 24px;
+    padding-top: 88px;
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer {
+    flex-direction: column;
+
+    align-items: flex-start;
+    padding: 64px 16px 24px;
+    height: 313px;
+    margin: 0;
+  }
+}

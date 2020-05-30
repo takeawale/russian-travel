@@ -1,5 +1,4 @@
 .intro__text {
-  width: 60%;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -7,4 +6,41 @@
   line-height: 26px;
   margin-top: 0;
   margin-bottom: 32px;
+  width: 60%;
+}
+
+@media (max-width: 1280px) {
+  .intro__text {
+    width: 60%;
+  }
+}
+@media (max-width: 1024px) {
+  .intro__text {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro__text {
+    width: 100%;
+    margin-top: 40px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 320px) {
+  .intro__text {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 32px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+  }
 }

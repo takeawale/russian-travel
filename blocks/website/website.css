@@ -1,6 +1,35 @@
 @import url(./__url-heading/website__url-heading.css);
 @import url(./__link/website__link.css);
 
-.website{
-    align-self: flex-end;
+.website {
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+
+.website-2 {
+  margin-top: 90px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .website {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .website {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .website-2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .website-2 {
+    margin-top: 0;
+  }
 }

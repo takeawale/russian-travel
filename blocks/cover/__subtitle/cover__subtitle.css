@@ -11,4 +11,18 @@
   margin: 0;
   position: relative;
   z-index: 1;
+  color: white;
+}
+
+@media (max-width: 320px) {
+  .cover__subtitle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    text-align: center;
+  }
 }
