@@ -12,7 +12,7 @@
 
 @media (min-width: 1280px) {
   .cover {
-    margin: 0 48px;
+    margin: 0 auto;
     min-height: 740px;
   }
 }
