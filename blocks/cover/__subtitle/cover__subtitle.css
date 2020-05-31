@@ -14,7 +14,7 @@
   color: white;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
   .cover__subtitle {
     font-family: Inter;
     font-style: normal;
@@ -22,7 +22,7 @@
     font-size: 14px;
     line-height: 16px;
     /* or 114% */
-
+    max-width: 270px;
     text-align: center;
   }
 }

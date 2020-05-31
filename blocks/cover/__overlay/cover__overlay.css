@@ -18,11 +18,13 @@
   right: 0;
   bottom: 0;
   top: 0;
-  background-color: black;
+  background: #2a2c2f;
+
   opacity: 0.3;
 }
 
 .cover__overlay:hover:before {
+  background: #2a2c2f;
   opacity: 0.8;
 }
 
@@ -52,7 +54,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .cover__overlay {
     margin: 0;
     min-height: 200px;

@@ -8,7 +8,7 @@
   align-self: end;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .place__title {
     padding: 0;
     max-width: 320px;
@@ -16,7 +16,11 @@
     line-height: 46px;
   }
 }
-
+@media screen and (max-width: 650px) {
+  .place__title {
+    max-width: 500px;
+  }
+}
 @media screen and (max-width: 320px) {
   .place__title {
     margin-top: 64px;

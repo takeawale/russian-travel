@@ -1,18 +1,15 @@
-@import url(./__url-heading/website__url-heading.css);
-@import url(./__link/website__link.css);
-
-.website {
+.place__website {
   margin-top: 0;
   align-self: end;
 }
 
 @media screen and (max-width: 320px) {
-  .website {
+  .place__website {
     display: none;
   }
 }
 @media screen and (max-width: 768px) {
-  .website {
+  .place__website {
     margin-bottom: 0;
   }
 }
