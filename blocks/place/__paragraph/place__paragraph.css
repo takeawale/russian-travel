@@ -9,27 +9,17 @@
   margin-bottom: 0;
 }
 
-.place__paragraph-2 {
+.place__paragraph {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-  margin-top: 48px;
+  margin-top: 0px;
   margin-bottom: 24px;
 }
 
-@media screen and (max-width: 320px) {
-  .place__paragraph-2 {
-    margin-left: 18px;
-    margin-top: 0;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
-  }
-}
+
 
 @media screen and (max-width: 320px) {
   .place__paragraph {

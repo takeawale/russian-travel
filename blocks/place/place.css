@@ -3,21 +3,44 @@
 @import url(./__title/place__title.css);
 @import url(./__inner/place__inner.css);
 
-.place {
-  display: flex;
-  justify-content: space-between;
 
-  padding-top: 80px;
-  padding-bottom: 0;
+.place {
+  display: grid;
+  grid-template-columns: minmax(320px, 460px) minmax(200px, 484px);
+  grid-row-gap: 48px;
+  grid-column-gap: 40px;
+  max-width: 984px;
+  margin-bottom: 80px;
 }
 
-.place:first-child {
-  padding-top: 0;
+
+.place:last-of-type {
+  margin-bottom: 0px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+.place {
+    grid-column-gap: 32px;
+    grid-template-columns: 440px 1fr;
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+.place {
+    grid-template-columns: 340px 1fr;
+    grid-column-gap: 28px;
+    padding-bottom: 72px;
+}
+
 }
 
 @media screen and (max-width: 320px) {
-  .place {
-    flex-direction: column;
-    padding: 0;
-  }
+.place {
+    grid-template-columns: auto;
+    grid-gap: 24px;
+    padding-bottom: 48px;
 }
+}
+
