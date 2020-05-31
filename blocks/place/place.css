@@ -40,7 +40,8 @@
 .place {
     grid-template-columns: auto;
     grid-gap: 24px;
-    padding-bottom: 48px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
 }
 }
 

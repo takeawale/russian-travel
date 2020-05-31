@@ -6,7 +6,6 @@
 
   background-image: url(./cover-trains.jpg);
   background-size: cover;
-  object-fit: fill;
 
   position: relative;
   z-index: 0;
