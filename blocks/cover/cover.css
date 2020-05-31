@@ -4,21 +4,23 @@
 @import url(./__overlay/cover__overlay.css);
 
 .cover {
-  max-height: 1184px;
+  max-height: 740px;
   padding-top: 92px;
+  background-repeat: no-repeat;
 }
+
 
 @media (min-width: 1280px) {
   .cover {
     margin: 0 48px;
-    min-height: 1184px;
+    min-height: 740px;
   }
 }
 
 @media (max-width: 1280px) {
   .cover {
     margin: 0 48px;
-    min-height: 1184px;
+    min-height: 740pxpx;
   }
 }
 
@@ -39,10 +41,12 @@
 @media (max-width: 320px) {
   .cover {
     width: 100%;
-
+    min-height: 200px;
     min-width: auto;
     max-height: 200px;
     padding-top: 64px;
     margin: 0;
   }
 }
+
+*/
