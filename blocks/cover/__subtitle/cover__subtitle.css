@@ -13,7 +13,9 @@
   z-index: 1;
   color: white;
 }
-
+.cover__link{
+  text-decoration: none;
+}
 @media (max-width: 500px) {
   .cover__subtitle {
     font-family: Inter;

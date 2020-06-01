@@ -11,12 +11,12 @@
 
 @media screen and (max-width: 1280px) {
   .intro__text {
-    width: 60%;
+    width: 69%;
   }
 }
 @media screen and (max-width: 1024px) {
   .intro__text {
-    width: 80%;
+    width: 85%;
   }
 }
 
@@ -24,23 +24,5 @@
   .intro__text {
     width: 100%;
     margin-top: 40px;
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .intro__text {
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 32px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
   }
 }
