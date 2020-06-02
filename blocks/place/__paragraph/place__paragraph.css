@@ -16,7 +16,18 @@
     line-height: 26px;
   }
 }
-
+@media screen and (max-width: 650px) {
+  .place__paragraph {
+    margin-left: 0px;
+  }
+}
 .place__paragraph:last-of-type {
   margin-bottom: 0px;
+}
+
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    margin-left: 16px;
+  }
 }

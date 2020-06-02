@@ -13,3 +13,9 @@
     margin-top: 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+margin-bottom: 24px;
+  }
+}
