@@ -10,6 +10,8 @@
   text-decoration: none;
   position: relative;
   z-index: 0;
+  box-sizing: border-box;
+  padding: 16px;
 }
 
 .cover__overlay:before {
